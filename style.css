@@ -130,12 +130,12 @@ body {
 .msg-form-body{
     background-color: #00b383;
     color: #fff;
-    width: 25rem;
+    width: 20rem;
     height: auto;
     position: fixed;
     right: 2em;
     top: 5.5em;
-    padding: 15px;
+    padding: 10px;
     border-radius: 5px;
     box-shadow: -10px 5px 16px -6px rgba(0,0,0,0.53);
     -webkit-box-shadow: -10px 5px 16px -6px rgba(0,0,0,0.53);
@@ -169,6 +169,14 @@ body {
 }
 .msg-form-body textarea:focus{
     outline: none;
+}
+.msg-form-body button{
+    background-color: #009970;
+    color: #fff;
+    border: 2px;
+    width: 5rem;
+    padding: 0.5rem;
+    margin-left: 8rem;
 }
 
 
