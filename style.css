@@ -563,7 +563,11 @@ section.product #product-caption h1{
 #msg-btn-close{
     visibility: hidden;
 }
-
+@media screen and(min-width: 600px) {
+    #msg-btn{
+        display: none;
+    }
+}
 
 
 

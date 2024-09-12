@@ -11,7 +11,6 @@ function scrollFunction() {
 const msg_btn = document.getElementById('msg-btn');
 const msg_body = document.getElementById('msg-form-body');
 const msg_btn_close = document.getElementById('msg-btn-close');
-
 // console.log(msg_btn);
 
 
