@@ -258,8 +258,7 @@ section.bod .card{
     /* padding: 1.5em .5em .5em; */
     /* text-align: center; */
     border-radius: 2em;
-    box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
-    z-index: 999;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .2)
 
 }
 section.bod .card h5{
@@ -580,6 +579,7 @@ section.product #product-caption p{
     right: 60px;
     bottom: 1rem;
     color: #009970;
+    z-index: 999;
 }
 .msg-btn svg:hover{
     cursor: pointer;
