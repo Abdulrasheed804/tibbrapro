@@ -600,6 +600,7 @@ section.product #product-caption p{
     bottom: 1rem;
     color: #009970;
     z-index: 999;
+    display: none;
 }
 .msg-btn svg:hover{
     cursor: pointer;
