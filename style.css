@@ -216,6 +216,8 @@ section.about h1{
 section.about p{
     color: #000;
     margin-top: 2rem;
+    text-align: center;
+    font-size: 18px;
 }
 /* profile style begin */
 section.profile h1{
@@ -295,21 +297,27 @@ section.management .card-img-top{
 }
 section.management .card{
     padding: 1.5em .5em .5em;
-    text-align: center;
+   align-items: center;
     border-radius: 2em;
     box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
     /* margin-top: 2rem; */
-    /* margin-left: 1rem; */
+    margin-left: 2rem;
 }
 section.management .card-title{
     font-weight: bold;
     font-size: 1.5em;
+    text-align: center;
 }
 section.management .btn-primary{
     border-radius: 2em;
     padding: .5em 1.5em;
     background-color: #009970;
     border: none;
+}
+section.management .card-text{
+    text-align: center;
+    font-size: 15px;
+    margin-top: 10px;
 }
 section.management .management-img img{
     margin-top: 1rem;
@@ -526,11 +534,22 @@ section.product #product-caption p{
 }
 .call{
     color: white;
-    /* padding: 20px; */
-    margin-top: 25px;
+    margin-top: 5rem;
     margin-bottom: none;
-    /* height: 70vh; */
-    /* width: 80%; */
+}
+
+.footer #call p{
+    margin-left: 10rem;
+    margin-top: -3.5rem;
+}
+.footer #call a{
+    padding: 2em;
+    /* text-align: center; */
+    /* margin-left: 2rem; */
+    margin-top: -2rem; 
+}
+.footer .map-direction iframe{
+    margin: 3rem 2rem 0 0;
 }
 /* .call-input input{
     background-color: rgb(73, 72, 72);
@@ -576,7 +595,7 @@ section.product #product-caption p{
 .msg-btn svg{
     height: 5rem;
     position: fixed;
-    right: 60px;
+    right: 55px;
     bottom: 1rem;
     color: #009970;
     z-index: 999;
