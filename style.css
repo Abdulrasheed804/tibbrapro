@@ -539,14 +539,14 @@ section.product #product-caption p{
 }
 
 .footer #call p{
-    margin-left: 10rem;
-    margin-top: -3.5rem;
+    margin-left: 7rem;
+    margin-top: -5.5rem;
 }
 .footer #call a{
-    padding: 2em;
+    /* padding: 0.5em; */
     /* text-align: center; */
-    /* margin-left: 2rem; */
-    margin-top: -2rem; 
+    margin-left: 2.5rem;
+    margin-top: 0.5rem; 
 }
 .footer .map-direction iframe{
     margin: 3rem 2rem 0 0;
@@ -594,8 +594,9 @@ section.product #product-caption p{
 }
 .msg-btn svg{
     height: 5rem;
+    width: 4rem;
     position: fixed;
-    right: 55px;
+    right: 50px;
     bottom: 1rem;
     color: #009970;
     z-index: 999;
