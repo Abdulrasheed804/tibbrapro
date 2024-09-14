@@ -245,7 +245,7 @@ section.gallery img{
 /* gallery style end */
 /* board of directore style begin */
 section.bod{
-    margin: 3rem 0 2rem 0;
+    /* margin: 3rem 0 2rem 1rem; */
     color: #009970;
 }
 section.bod h1{
@@ -254,12 +254,11 @@ section.bod h1{
     color: #009970;
 }
 section.bod .card{
-    /* width: 10rem; */
-    margin: 20px;
+    margin-left: 10rem;
+    margin-top: 2rem;
     /* padding: 1.5em .5em .5em; */
-    /* text-align: center; */
     border-radius: 2em;
-    box-shadow: 0 5px 10px rgba(0, 0, 0, .2)
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
 
 }
 section.bod .card h5{
@@ -269,6 +268,7 @@ section.bod .card h5{
 }
 section.bod .card p{
     font-size: 15px;
+    text-align: center;
 }
 section.bod .card img{
    border-radius: 10px;
@@ -450,9 +450,7 @@ section.product #product-caption p{
 .product .btn-close{
     background-color: #009970;
 }
-.product .btn-close:focus{
-    display: none;
-}
+
 
 /* footer{
     background-color: #009970;
