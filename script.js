@@ -24,3 +24,5 @@ msg_btn.addEventListener('click', function(){
 
  };
 });
+
+// animation
