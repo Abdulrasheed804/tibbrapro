@@ -254,10 +254,8 @@ section.bod h1{
     color: #009970;
 }
 section.bod .card{
-    margin-left: 2rem;
-    margin-top: 2rem;
-    /* padding: 1.5em .5em .5em; */
-    border-radius: 2em;
+    margin: 2rem;
+    border-radius: 3em;
     box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
 
 }
@@ -268,7 +266,6 @@ section.bod .card h5{
 }
 section.bod .card p{
     font-size: 15px;
-    text-align: center;
 }
 section.bod .card img{
    border-radius: 10px;
@@ -301,6 +298,7 @@ section.management .card{
     box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
     /* margin-top: 2rem; */
     margin-left: 2rem;
+    margin-bottom: 1rem;
 }
 section.management .card-title{
     font-weight: bold;
@@ -319,8 +317,8 @@ section.management .card-text{
     margin-top: 10px;
 }
 section.management .management-img img{
-    margin-top: 1rem;
-    /* margin-right: 5rem; */
+   display: block;
+    margin: auto;
 }
 /* management style end */
 section.contact h1{
