@@ -25,6 +25,9 @@ msg_btn.addEventListener('click', function(){
  };
 });
 
-const year = document.getElementById('year');
+// copyright date
+let d = new Date()
+const year = d.getFullYear()
+document.getElementById("year").innerHTML = year
 
 // animation
