@@ -25,4 +25,6 @@ msg_btn.addEventListener('click', function(){
  };
 });
 
+const year = document.getElementById('year');
+
 // animation

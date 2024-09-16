@@ -499,7 +499,6 @@ section.product #product-caption p{
     background-color: rgb(48, 44, 44);
     height: 8vh;
     margin-top: 40px;
-    display: none;
 }
 .footer .cpr p{
     color: #ccc;
@@ -515,6 +514,7 @@ section.product #product-caption p{
     /* padding: 20px; */
     height: 40vh;
     width: 85%;
+    display: none;
 }
 .map-content{
     margin-top: 20px;
