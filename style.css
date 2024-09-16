@@ -492,13 +492,14 @@ section.product #product-caption p{
     max-width: 100%;
     margin-top: 5rem;
     height: auto;
-    display: none;
+    
 }
 
 .footer .cpr{
     background-color: rgb(48, 44, 44);
     height: 8vh;
     margin-top: 40px;
+    display: none;
 }
 .footer .cpr p{
     color: #ccc;
